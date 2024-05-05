@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Salon Piękności Joshuy</title>
+  <link rel="stylesheet" href="css/styl.css" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+  <script src="js/jquery.js"></script>
+  <script src="js/nawigacja.js"></script> 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script> 
+</head>
+<body>
+  <header id="top">
+    <div class="container">
+      <div id="logo">
+        <a href="#start" class="start">
+          <img src="img/logo.png" alt="Logo" width="100px">
+        </a>
+      </div>
+      <nav id="main-menu">
+        <ul>
+          <li><a href="#banner" class="start">Strona główna</a></li>
+          <li><a href="#aboutme" class="aboutme">Usługi</a></li>
+          <li><a href="#learning" class="learning">Nasze prace</a></li>
+          <li><a href="#contact" class="contact">Kontakt</a></li>
+        </ul> 
+      </nav> 
+    </div>
+  </header>
+  
+  <section id="banner">
+    <h1>Joshua</h1>
+    <h2>Piękno, które wzbudza Twoje zaufanie</h2>
+    <a href="files/cennik.pdf" target="_blank" class="button button-light">Zobacz cennik</a>
+  </section> 
+  
+  <section id="aboutme">
+    <div class="container">
+      <h2 class="center-text">Nasze usługi</h2>
+      <div class="three-columns center-text">
+        <img src="img/manicure.png" alt="Manicure" width="1000px">
+        <h3>Manicure</h3>
+        <p>Najlepszy manicure w mieście!</p>
+        <a href="#" class="button button-dark">Umów się na wizytę</a>
+      </div>
+      <div class="three-columns center-text">
+        <img src="img/pedicure.png" alt="Pedicure" width="1000px">
+        <h3>Pedicure</h3>
+        <p>Najlepszy pedicure w mieście!</p>
+        <a href="#" class="button button-dark">Umów się na wizytę</a>
+      </div>
+      <div class="three-columns center-text">
+        <img src="img/haircut.png" alt="Strzyżenie" width="1000px">
+        <h3>Strzyżenie</h3>
+        <p>Najlepsze strzyżenie w mieście!</p>
+        <a href="#" class="button button-dark">Umów się na wizytę</a>
+      </div>
+    </div>
+  </section>
+    
+  <section id="learning">
+    <div class="container">
+      <div class="two-columns">
+        <img src="img/our_work.png" alt="Nasze prace" width="500px">
+      </div>
+      <div class="two-columns">
+        <h2>Nasze prace</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero necessitatibus ipsum, impedit veniam placeat eligendi, consectetur libero eos voluptate provident ipsa a dolorem natus. Dolorum architecto veritatis aut officiis explicabo.
+        </p><br>
+        <p>Lorem ipsum dolor sit amet consectetur <em>adipisicing elit.</em> klasycznej oraz elektrycznej.</p>
+        <a href="#learning" class="button button-lesson">Zobacz nasze prace</a>
+      </div>
+    </div>
+  </section> 
+  
+  <section id="contact">
+    <div class="container">
+      <h2 class="center-text">Napisz do nas</h2>
+      <div class="two-columns">
+        <form>
+          <label>Imię i nazwisko</label><br>
+          <input type="text" name="name" required><br>
+          <label>Adres e-mail</label><br>
+          <input type="email" name="email" required><br>
+          <label>Treść wiadomości</label><br>
+          <textarea name="message" rows="10" cols="30" required></textarea><br>
+          <button type="submit" class="button button-dark">Wyślij dane</button>
+        </form>
+      </div>
+      <div class="two-columns center-text">
+        <h3>Joshua Lancer</h3>
+        <p>ul. Randomna 1-123 Lublin<br>
+        tel. 444-33-11<br>
+        e-mail: kontakt@joshua.pl
+        </p>
+      </div>
+    </div>
+  </section> 
+  
+  <footer>
+    <div class="container">
+      <p>&copy; Joshua 2024</p>
+    </div>
+  </footer> 
+</body>
+</html>
